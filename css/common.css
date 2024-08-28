@@ -26,7 +26,7 @@ padding: 24px;
   background-color: #F6F6FE;
   border-radius: 8px;
   padding: 16px;
-
+width: 360px;
   
 }
 
@@ -105,4 +105,54 @@ input{
   padding: 8px 16px;
   border: none;
   border-radius: 8px;
+}
+.change-color:hover{
+  background-color: #6c8cff;
+}
+
+/*TASK-6*/
+
+#controls{
+  display: flex;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #F6F6FE;
+}
+#controls-input{
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 16px;
+  text-align: center;
+  width: 150px;
+
+}
+#create-btn{
+  background-color: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+#create-btn:hover{
+  background-color: #6c8cff;
+}
+#destroy-btn{
+  background-color: #FF4E4E;
+  border-radius: 8px;
+    padding: 8px 16px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+#destroy-btn:hover{
+  background-color: #ff7070;
+}
+#boxes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 32px;
+ border-radius: 8px;
 }
